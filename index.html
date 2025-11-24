@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPath Evolution | Sua Jornada Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DevPath <span>Evolution</span></div>
+        <div id="user-stats" class="user-stats hidden">
+            <div class="stat-item">
+                <span class="stat-label">XP</span>
+                <span id="user-xp" class="stat-value">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Level</span>
+                <span id="user-level" class="stat-value">1</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Streak</span>
+                <span id="user-streak" class="stat-value">0</span> <span class="stat-icon">🔥</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Sua Carreira, <span class="gradient-text">Planejada com IA</span></h1>
+                <p>Gere um roadmap personalizado com IA e acompanhe sua evolução.</p>
+                
+                <div class="input-group">
+                    <input type="text" id="objetivo-input" placeholder="Ex: Full Stack Developer, Data Scientist..." autocomplete="off">
+                    <button id="btn-gerar" class="btn-primary">
+                        <span class="btn-text">Gerar Roadmap</span>
+                        <span class="loader hidden"></span>
+                    </button>
+                </div>
+                
+                <div class="suggestions">
+                    <span>Sugestões:</span>
+                    <button class="chip" onclick="setInput('Frontend Developer')">Frontend</button>
+                    <button class="chip" onclick="setInput('Backend Node.js')">Backend</button>
+                    <button class="chip" onclick="setInput('Mobile React Native')">Mobile</button>
+                </div>
+
+                <div id="chart-container" class="chart-container hidden">
+                    <h3>📊 Sua Evolução (XP)</h3>
+                    <canvas id="xp-chart" width="600" height="200"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap-section" class="roadmap-section hidden">
+            <div class="roadmap-header">
+                <div class="header-info">
+                    <h2 id="roadmap-title">Roadmap</h2>
+                    
+                    <div class="time-control">
+                        <p id="roadmap-time" class="base-time">⏱️ Estimativa base: --</p>
+                        <div class="hours-input-wrapper">
+                            <label>Eu estudo:</label>
+                            <input type="number" id="hours-per-week" value="10" min="1" max="100">
+                            <span>h/semana</span>
+                        </div>
+                        <p id="real-time-estimate" class="real-time">📅 Previsão real: Calculando...</p>
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <span id="progress-text">0%</span>
+                </div>
+                <button id="btn-reset" class="btn-secondary">🔄 Novo Roadmap</button>
+            </div>
+
+            <div id="roadmap-container" class="roadmap-steps">
+                </div>
+        </section>
+    </main>
+
+    <div id="tech-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <div class="modal-header">
+                <h2 id="modal-title">Tecnologia</h2>
+                <span class="modal-badge">IA Generator</span>
+            </div>
+            
+            <div id="modal-loader" class="hidden">
+                <div class="loader-circle"></div>
+                <p>Criando projetos práticos...</p>
+            </div>
+
+            <div id="modal-body">
+                <div class="modal-section">
+                    <h3>💻 Projetos Práticos</h3>
+                    <div id="projects-list" class="cards-grid"></div>
+                </div>
+                <div class="modal-section">
+                    <h3>📚 Melhores Recursos</h3>
+                    <div id="resources-list" class="resources-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

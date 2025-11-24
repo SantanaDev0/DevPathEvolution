@@ -1,0 +1,303 @@
+[
+  {
+    "nome": "Go (Golang)",
+    "descricao": "Linguagem de programação compilada, tipada estaticamente, desenvolvida pelo Google, focada em simplicidade, concorrência e alto desempenho para sistemas de grande escala.",
+    "data_criacao": "2009",
+    "link": "https://go.dev/",
+    "tags": [
+      "Linguagem de Programação",
+      "Backend",
+      "Concorrência",
+      "Sistemas",
+      "Google"
+    ]
+  },
+  {
+    "nome": "React",
+    "descricao": "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário baseadas em componentes, mantida pelo Facebook (Meta).",
+    "data_criacao": "2013",
+    "link": "https://reactjs.org/",
+    "tags": [
+      "Biblioteca",
+      "Frontend",
+      "UI/UX",
+      "Componentes"
+    ]
+  },
+  {
+    "nome": "Docker",
+    "descricao": "Plataforma que facilita o desenvolvimento, envio e execução de aplicações dentro de containers leves e portáteis, isolando-as do ambiente.",
+    "data_criacao": "2013",
+    "link": "https://www.docker.com/",
+    "tags": [
+      "DevOps",
+      "Containers",
+      "Virtualização",
+      "Infraestrutura"
+    ]
+  },
+  {
+    "nome": "Kubernetes (K8s)",
+    "descricao": "Sistema de código aberto para automatizar a implantação, escalonamento e gerenciamento de aplicações em containers.",
+    "data_criacao": "2014",
+    "link": "https://kubernetes.io/",
+    "tags": [
+      "Orquestração",
+      "DevOps",
+      "Cloud Native",
+      "Containers"
+    ]
+  },
+  {
+    "nome": "MongoDB",
+    "descricao": "Banco de dados NoSQL orientado a documentos, conhecido por sua flexibilidade de esquema e escalabilidade horizontal.",
+    "data_criacao": "2009",
+    "link": "https://www.mongodb.com/",
+    "tags": [
+      "Banco de Dados",
+      "NoSQL",
+      "Documentos",
+      "Escalabilidade"
+    ]
+  },
+  {
+    "nome": "PostgreSQL",
+    "descricao": "Sistema de gerenciamento de banco de dados relacional (SQL) open source, conhecido por sua robustez, conformidade com padrões e recursos avançados.",
+    "data_criacao": "1996",
+    "link": "https://www.postgresql.org/",
+    "tags": [
+      "Banco de Dados",
+      "Relacional",
+      "SQL",
+      "Open Source"
+    ]
+  },
+  {
+    "nome": "TypeScript",
+    "descricao": "Superset tipado do JavaScript que compila para JavaScript puro, adicionando tipagem estática opcional para desenvolvimento em larga escala.",
+    "data_criacao": "2012",
+    "link": "https://www.typescriptlang.org/",
+    "tags": [
+      "Linguagem de Programação",
+      "Frontend",
+      "Backend",
+      "Tipagem Estática"
+    ]
+  },
+  {
+    "nome": "Node.js",
+    "descricao": "Ambiente de execução (runtime) JavaScript server-side e assíncrono, construído no motor V8 do Google Chrome, ideal para I/O intensivo.",
+    "data_criacao": "2009",
+    "link": "https://nodejs.org/",
+    "tags": [
+      "Runtime",
+      "Backend",
+      "Event-Driven",
+      "Servidores"
+    ]
+  },
+  {
+    "nome": "Kotlin",
+    "descricao": "Linguagem de programação moderna, estaticamente tipada, que roda na JVM e é a linguagem preferida para o desenvolvimento Android.",
+    "data_criacao": "2011",
+    "link": "https://kotlinlang.org/",
+    "tags": [
+      "Linguagem de Programação",
+      "Mobile",
+      "Backend",
+      "JVM"
+    ]
+  },
+  {
+    "nome": "Vue.js",
+    "descricao": "Framework progressivo para construir interfaces de usuário, conhecido por sua facilidade de aprendizado e integração incremental.",
+    "data_criacao": "2014",
+    "link": "https://vuejs.org/",
+    "tags": [
+      "Framework",
+      "Frontend",
+      "SPA",
+      "Web"
+    ]
+  },
+  {
+    "nome": "Terraform",
+    "descricao": "Ferramenta de Infraestrutura como Código (IaC) que permite definir e provisionar infraestrutura de data centers e serviços em nuvem usando arquivos de configuração declarativos.",
+    "data_criacao": "2014",
+    "link": "https://www.terraform.io/",
+    "tags": [
+      "DevOps",
+      "Infraestrutura como Código",
+      "Cloud",
+      "Provisionamento"
+    ]
+  },
+  {
+    "nome": "Rust",
+    "descricao": "Linguagem de programação de sistemas focada em segurança, especialmente concorrência segura, e performance.",
+    "data_criacao": "2010",
+    "link": "https://www.rust-lang.org/",
+    "tags": [
+      "Linguagem de Programação",
+      "Sistemas",
+      "Performance",
+      "Segurança de Memória"
+    ]
+  },
+  {
+    "nome": "AWS Lambda",
+    "descricao": "Serviço de computação serverless da AWS que permite executar código em resposta a eventos sem provisionar ou gerenciar servidores.",
+    "data_criacao": "2014",
+    "link": "https://aws.amazon.com/lambda/",
+    "tags": [
+      "Cloud Computing",
+      "Serverless",
+      "FaaS",
+      "AWS"
+    ]
+  },
+  {
+    "nome": "Apache Kafka",
+    "descricao": "Plataforma de streaming de eventos distribuída que permite publicar, assinar, armazenar e processar fluxos de registros em tempo real.",
+    "data_criacao": "2011",
+    "link": "https://kafka.apache.org/",
+    "tags": [
+      "Streaming",
+      "Big Data",
+      "Mensageria",
+      "Event-Driven"
+    ]
+  },
+  {
+    "nome": "Redis",
+    "descricao": "Armazenamento de estrutura de dados em memória (in-memory) usado como cache, message broker e banco de dados NoSQL.",
+    "data_criacao": "2009",
+    "link": "https://redis.io/",
+    "tags": [
+      "Banco de Dados",
+      "Cache",
+      "In-Memory",
+      "NoSQL"
+    ]
+  },
+  {
+    "nome": "TensorFlow",
+    "descricao": "Biblioteca de código aberto desenvolvida pelo Google para computação numérica usando gráficos de fluxo de dados, amplamente utilizada em Machine Learning.",
+    "data_criacao": "2015",
+    "link": "https://www.tensorflow.org/",
+    "tags": [
+      "Machine Learning",
+      "Deep Learning",
+      "IA",
+      "Biblioteca"
+    ]
+  },
+  {
+    "nome": "Flutter",
+    "descricao": "Kit de desenvolvimento de UI do Google para criar aplicativos nativos compilados e multiplataforma a partir de uma única base de código.",
+    "data_criacao": "2017",
+    "link": "https://flutter.dev/",
+    "tags": [
+      "Framework",
+      "Mobile",
+      "Multiplataforma",
+      "UI/UX"
+    ]
+  },
+  {
+    "nome": "Spring Boot",
+    "descricao": "Extensão do framework Spring para facilitar a criação de aplicações Spring autônomas e prontas para produção, especialmente microsserviços.",
+    "data_criacao": "2014",
+    "link": "https://spring.io/projects/spring-boot",
+    "tags": [
+      "Framework",
+      "Backend",
+      "Microsserviços",
+      "Desenvolvimento"
+    ]
+  },
+  {
+    "nome": "Angular",
+    "descricao": "Framework de desenvolvimento web baseado em TypeScript, mantido pelo Google, projetado para construir Single Page Applications (SPAs) complexas.",
+    "data_criacao": "2016",
+    "link": "https://angular.io/",
+    "tags": [
+      "Framework",
+      "Frontend",
+      "SPA",
+      "Google"
+    ]
+  },
+  {
+    "nome": "Jenkins",
+    "descricao": "Servidor de automação open source focado em Continuous Integration e Continuous Delivery (CI/CD) para automação de partes do ciclo de vida de desenvolvimento.",
+    "data_criacao": "2011",
+    "link": "https://www.jenkins.io/",
+    "tags": [
+      "CI/CD",
+      "DevOps",
+      "Automação",
+      "Open Source"
+    ]
+  },
+  {
+    "nome": "GraphQL",
+    "descricao": "Linguagem de consulta para APIs desenvolvida pelo Facebook, que permite aos clientes solicitar exatamente os dados de que precisam, e nada mais.",
+    "data_criacao": "2015",
+    "link": "https://graphql.org/",
+    "tags": [
+      "API",
+      "Linguagem de Consulta",
+      "Backend",
+      "Comunicação de Dados"
+    ]
+  },
+  {
+    "nome": "Svelte",
+    "descricao": "Compilador que transforma código declarativo em JavaScript eficiente, evitando o overhead de frameworks tradicionais no navegador.",
+    "data_criacao": "2016",
+    "link": "https://svelte.dev/",
+    "tags": [
+      "Framework",
+      "Frontend",
+      "Compilador",
+      "Web"
+    ]
+  },
+  {
+    "nome": "Solidity",
+    "descricao": "Linguagem de programação orientada a contratos para escrever Smart Contracts em plataformas blockchain como Ethereum.",
+    "data_criacao": "2014",
+    "link": "https://docs.soliditylang.org/",
+    "tags": [
+      "Linguagem de Programação",
+      "Blockchain",
+      "Smart Contracts",
+      "Web3"
+    ]
+  },
+  {
+    "nome": "Scrum",
+    "descricao": "Framework leve de desenvolvimento ágil que ajuda equipes e indivíduos a gerar valor através de soluções adaptativas para problemas complexos.",
+    "data_criacao": "1990",
+    "link": "https://www.scrum.org/",
+    "tags": [
+      "Metodologia Ágil",
+      "Gerenciamento de Projetos",
+      "Framework",
+      "Desenvolvimento de Software"
+    ]
+  },
+  {
+    "nome": "Istio",
+    "descricao": "Mesh de serviço open source que fornece controle, segurança e observabilidade de microsserviços em arquiteturas distribuídas, frequentemente usado com Kubernetes.",
+    "data_criacao": "2017",
+    "link": "https://istio.io/",
+    "tags": [
+      "Service Mesh",
+      "Microsserviços",
+      "DevOps",
+      "Cloud Native"
+    ]
+  }
+]

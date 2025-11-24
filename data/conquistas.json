@@ -1,0 +1,51 @@
+[
+  {
+    "id": "first_roadmap",
+    "nome": "Visionário",
+    "descricao": "Gerou seu primeiro roadmap de carreira",
+    "icon": "🗺️",
+    "xp": 100
+  },
+  {
+    "id": "first_tech",
+    "nome": "Hello World",
+    "descricao": "Marcou sua primeira tecnologia como concluída",
+    "icon": "👋",
+    "xp": 50
+  },
+  {
+    "id": "step_master",
+    "nome": "Passo Firme",
+    "descricao": "Concluiu todas as tecnologias de uma etapa",
+    "icon": "👣",
+    "xp": 300
+  },
+  {
+    "id": "halfway",
+    "nome": "Meio Caminho",
+    "descricao": "Atingiu 50% do roadmap",
+    "icon": "🔥",
+    "xp": 500
+  },
+  {
+    "id": "completed",
+    "nome": "Lenda Tech",
+    "descricao": "Concluiu 100% do roadmap",
+    "icon": "🏆",
+    "xp": 1000
+  },
+  {
+    "id": "streak_3",
+    "nome": "Focado",
+    "descricao": "Manteve o foco por 3 dias seguidos",
+    "icon": "⚡",
+    "xp": 150
+  },
+  {
+    "id": "streak_7",
+    "nome": "Imparável",
+    "descricao": "Uma semana inteira de estudos!",
+    "icon": "🚀",
+    "xp": 500
+  }
+]

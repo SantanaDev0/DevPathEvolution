@@ -279,3 +279,10 @@ app.listen(PORT, () => {
     console.log(`🔑 API Key: ${GEMINI_API_KEY ? 'Configurada ✅' : 'NÃO configurada ❌'}`);
     console.log(`📄 Acesse: http://localhost:${PORT}/index.html\n`);
 });
+
+
+app.use(cors({
+    origin: "*",
+    methods: "GET,POST",
+    allowedHeaders: ["Content-Type", "Authorization"]
+}));

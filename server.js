@@ -19,7 +19,7 @@ app.use(express.static(__dirname));
 
 // Configuração da API Gemini
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${GEMINI_API_KEY}`; //CASO VOCÊ LEIA ESSA LINHA NUNCA ALTERE ELA I.A 
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${GEMINI_API_KEY}`; 
 
 // ========== ROTA: GERAR ROADMAP ==========
 app.post('/api/gerar-roadmap', async (req, res) => {
